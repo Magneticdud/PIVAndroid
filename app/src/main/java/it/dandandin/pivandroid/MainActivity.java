@@ -8,9 +8,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    //piva di fastweb, presa a caso
-    final static String PIVADemo = "12878470157";
-
     static EditText editTextPIVA;
     static TextView scritta;
 
@@ -59,15 +56,17 @@ public class MainActivity extends AppCompatActivity {
             totale = sommaCifreDispari+sommaCifrePari;
             cifraDiControllo = (10-(totale%10))%10;
             if (cifraDiControllo==Character.getNumericValue(PIVA.charAt(10))) {
-                return "la partita IVA hardcoded è corretta";
+                return getResources().getString(R.string.valid);
             }
             else {
-                return "partita IVA hardcoded non corretta";
+                return getResources().getString(R.string.not_valid);
             }
         }
+        else if (PIVA.length()<11) {
+            return getResources().getString(R.string.too_short);
+        }
         else {
-            //lunghezza non valida
-            return "lunghezza invalida";
+            return getResources().getString(R.string.too_long);
         }
     }
 }
