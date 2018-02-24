@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PIVAndroid</string>
+    <string name="too_short">La partita IVA inserita è troppo corta</string>
+    <string name="too_long">La partita IVA inserita è troppo lunga</string>
+    <string name="not_valid">La partita IVA inserita non è valida</string>
+    <string name="valid">La partita IVA inserita è valida</string>
+</resources>

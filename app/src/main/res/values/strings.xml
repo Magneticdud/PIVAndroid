@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PIVAndroid</string>
+    <string name="too_short">The Partita IVA is too short</string>
+    <string name="too_long">The Partita IVA is too long</string>
+    <string name="not_valid">This Partita IVA is not valid</string>
+    <string name="valid">This Partita IVA is valid!</string>
 </resources>

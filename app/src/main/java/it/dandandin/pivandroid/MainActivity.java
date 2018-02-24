@@ -2,18 +2,41 @@ package it.dandandin.pivandroid;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     //piva di fastweb, presa a caso
     final static String PIVADemo = "12878470157";
 
+    static EditText editTextPIVA;
+    static TextView scritta;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView scritta = (TextView) findViewById(R.id.testo);
-        scritta.setText(controllaPIVA(PIVADemo));
+        scritta = (TextView) findViewById(R.id.testo);
+        //scritta.setText(controllaPIVA(PIVADemo));
+        editTextPIVA = (EditText)findViewById(R.id.editTextPIVA);
+        editTextPIVA.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+                scritta.setText(controllaPIVA(String.valueOf(editTextPIVA.getText())));
+            }
+        });
     }
 
     protected String controllaPIVA(String PIVA) {
