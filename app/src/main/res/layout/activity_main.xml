@@ -19,16 +19,16 @@
             android:text="@string/calculate_activity"/>
     </FrameLayout>
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorCheck">
-        <TextView
-            android:id="@+id/tV_controlla"
-            style="@style/mieimenu"
-            android:layout_height="90dp"
-            android:text="@string/check_activity"/>
-    </FrameLayout>
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorCheck">-->
+        <!--<TextView-->
+            <!--android:id="@+id/tV_controlla"-->
+            <!--style="@style/mieimenu"-->
+            <!--android:layout_height="90dp"-->
+            <!--android:text="@string/check_activity"/>-->
+    <!--</FrameLayout>-->
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -40,23 +40,23 @@
             android:text="@string/generate_activity"/>
     </FrameLayout>
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorHand">
-        <TextView
-            android:id="@+id/tV_manuale"
-            style="@style/mieimenu"
-            android:text="@string/manual_activity"/>
-    </FrameLayout>
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorHand">-->
+        <!--<TextView-->
+            <!--android:id="@+id/tV_manuale"-->
+            <!--style="@style/mieimenu"-->
+            <!--android:text="@string/manual_activity"/>-->
+    <!--</FrameLayout>-->
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorOther">
-        <TextView
-            android:id="@+id/tV_altre_nazioni"
-            style="@style/mieimenu"
-            android:text="@string/piva_other_activity"/>
-    </FrameLayout>
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorOther">-->
+        <!--<TextView-->
+            <!--android:id="@+id/tV_altre_nazioni"-->
+            <!--style="@style/mieimenu"-->
+            <!--android:text="@string/piva_other_activity"/>-->
+    <!--</FrameLayout>-->
 </LinearLayout>

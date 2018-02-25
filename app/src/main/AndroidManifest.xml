@@ -20,10 +20,11 @@
             android:name=".CalcoloActivity"
             android:label="@string/calculate_activity"
             android:parentActivityName=".MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".GeneraActivity"
+            android:label="@string/generate_activity"
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 

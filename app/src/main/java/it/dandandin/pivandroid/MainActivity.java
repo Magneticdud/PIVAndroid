@@ -25,5 +25,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        //apri genera
+        TextView generaTV = (TextView) (findViewById(R.id.tV_genera));
+        generaTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,GeneraActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }
