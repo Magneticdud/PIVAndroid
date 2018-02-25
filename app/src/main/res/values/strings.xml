@@ -6,4 +6,10 @@
     <string name="valid">This Partita IVA is valid!</string>
     <string name="please_insert">Please write a Partita IVA below:</string>
     <string name="calculate_activity">Check a Partita IVA</string>
+    <string name="generate_activity">Generate a Partita IVA</string>
+    <string name="manual_activity">How to check it by hand</string>
+    <string name="check_activity">Check if a number is actually registered</string>
+    <string name="url_agenzia" translatable="false">https://telematici.agenziaentrate.gov.it/VerificaPIVA/Scegli.do?parameter=verificaPiva</string>
+    <string name="piva_other_activity">Partita IVA in other countries</string>
+    <string name="url_vies" translatable="false">https://www1.agenziaentrate.gov.it/servizi/vies/vies.htm</string>
 </resources>

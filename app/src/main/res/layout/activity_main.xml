@@ -1,17 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
     tools:context="it.dandandin.pivandroid.MainActivity">
 
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <FrameLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="52dp" />
-</android.support.constraint.ConstraintLayout>
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:id="@+id/tV_calcolo"
+            style="@style/mieimenu"
+            android:text="@string/calculate_activity"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCheck">
+        <TextView
+            android:id="@+id/tV_controlla"
+            style="@style/mieimenu"
+            android:layout_height="90dp"
+            android:text="@string/check_activity"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGenera">
+        <TextView
+            android:id="@+id/tV_genera"
+            style="@style/mieimenu"
+            android:text="@string/generate_activity"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorHand">
+        <TextView
+            android:id="@+id/tV_manuale"
+            style="@style/mieimenu"
+            android:text="@string/manual_activity"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOther">
+        <TextView
+            android:id="@+id/tV_altre_nazioni"
+            style="@style/mieimenu"
+            android:text="@string/piva_other_activity"/>
+    </FrameLayout>
+</LinearLayout>
