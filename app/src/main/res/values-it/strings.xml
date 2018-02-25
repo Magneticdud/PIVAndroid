@@ -6,4 +6,5 @@
     <string name="not_valid">La partita IVA inserita non è valida</string>
     <string name="valid">La partita IVA inserita è valida</string>
     <string name="please_insert">Inserisci una partita IVA qua sotto:</string>
+    <string name="calculate_activity">Controlla una partita IVA</string>
 </resources>

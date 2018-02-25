@@ -5,4 +5,5 @@
     <string name="not_valid">This Partita IVA is not valid</string>
     <string name="valid">This Partita IVA is valid!</string>
     <string name="please_insert">Please write a Partita IVA below:</string>
+    <string name="calculate_activity">Check a Partita IVA</string>
 </resources>
